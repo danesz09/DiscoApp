@@ -7,7 +7,7 @@ class DiscoAppGD:
         self.root = root
         self.root.title("NO PARTY :(")
         self.root.geometry("800x800")
-        self.root.config(bg="white")
+        self.root.config(bg="black")
 
         #Inicializálás
         self.party_button = tk.Button(root, text="PARTY TIME", font=("Gill Sans MT", 12), command=self.start_party_gd)
