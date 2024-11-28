@@ -28,7 +28,7 @@ class DiscoAppGD:
         if self.partying:
             self.party_button.config(text="STOP THE FUN!")
             self.label.config(text="PARTY TIME!")
-            self.title_index = 0  # Reset title index
+            self.title_index = 0
             self.change_color_gd()
             self.update_title_gd()
             new_size = self.gif_handler.load_random_gif_GD()
